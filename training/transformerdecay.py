@@ -23,6 +23,7 @@ data_path="../data/"
 Codes=np.load(f'{data_path}chf_codes_mimic3.npy')
 class_=np.load(f'{data_path}chf_class_mimic3.npy')
 Demos=np.load(f'{data_path}chf_demos_mimic3.npy')
+Demos[:,4]=np.where(Demos[:,4]<0,0,Demos[:,4])
 Edays=np.load(f'{data_path}chf_edays_mimic3.npy')
 
 
