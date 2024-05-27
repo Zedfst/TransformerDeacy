@@ -9,3 +9,8 @@ tensorflow==2.9.0
 
 # Architecture
 ![](assets/model_architecture.jpg)
+
+# Run the files in this order
+1. data_extraction.py
+2. samples_creation.py
+3. training/transformerdecay.py
